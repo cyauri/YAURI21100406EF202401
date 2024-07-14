@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<Spinner
+    android:id="@+id/spinnerLocalTeam"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Selecciona el equipo local"/>
+
+<Spinner
+    android:id="@+id/spinnerVisitorTeam"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Selecciona el equipo visitante"/>
+
+<EditText
+    android:id="@+id/editTextLocalWinOdds"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Cuota si gana el local"
+    android:inputType="numberDecimal"/>
+
+<EditText
+    android:id="@+id/editTextDrawOdds"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Cuota en caso de empate"
+    android:inputType="numberDecimal"/>
+
+<EditText
+    android:id="@+id/editTextVisitorWinOdds"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Cuota si gana el visitante"
+    android:inputType="numberDecimal"/>
+
+<Button
+    android:id="@+id/buttonRegisterMatchup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Registrar"/>
+
+<Button
+    android:id="@+id/buttonRegisterTeams"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Registro de Equipos"/>
+
+<Button
+    android:id="@+id/buttonListMatchups"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Listado de Enfrentamientos"/>
+</LinearLayout>
